@@ -230,6 +230,10 @@ header {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  padding: 6px 22px;
+  border: 0;
+  border-radius: 4px;
+  min-width: 73px;
 }
 
 .nav-filter:hover {
@@ -237,8 +241,14 @@ header {
   color: var(--main-background);
 }
 
+.nav-list {
+  margin-bottom: 34px;
+}
 /* Portfolio cards */
+
 .card-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
   color: var(--main-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -246,12 +256,26 @@ header {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-left: 24px;
+  margin-right: 24px;
 }
+
 .card-list a {
+  display: inline-block;
   text-decoration: none;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 .card-desc {
+  margin: 0;
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.87;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.main-portfolio {
+  padding-top: 102px;
+  padding-bottom: 94px;
 }
